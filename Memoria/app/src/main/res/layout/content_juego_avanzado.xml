@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Fondo"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".JuegoAvanzado"
+    tools:showIn="@layout/activity_juego_avanzado">
+
+    <ImageButton
+        android:id="@+id/tarjeta1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta1"
+        android:src="@drawable/trophy"
+        app:layout_constraintBottom_toTopOf="@+id/tarjeta4"
+        app:layout_constraintEnd_toStartOf="@+id/tarjeta2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/tarjeta2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta2"
+        android:src="@drawable/trophy"
+        app:layout_constraintBottom_toTopOf="@+id/tarjeta5"
+        app:layout_constraintEnd_toStartOf="@+id/tarjeta3"
+        app:layout_constraintStart_toEndOf="@+id/tarjeta1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/tarjeta3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta3"
+        android:src="@drawable/trophy"
+        app:layout_constraintBottom_toTopOf="@+id/tarjeta6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tarjeta2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/tarjeta4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta4"
+        android:src="@drawable/trophy"
+        app:layout_constraintBottom_toTopOf="@+id/tarjeta7"
+        app:layout_constraintEnd_toStartOf="@+id/tarjeta5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tarjeta1" />
+
+    <ImageButton
+        android:id="@+id/tarjeta5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta5"
+        android:src="@drawable/trophy"
+        app:layout_constraintBottom_toTopOf="@+id/tarjeta8"
+        app:layout_constraintEnd_toStartOf="@+id/tarjeta6"
+        app:layout_constraintStart_toEndOf="@+id/tarjeta4"
+        app:layout_constraintTop_toBottomOf="@+id/tarjeta2" />
+
+    <ImageButton
+        android:id="@+id/tarjeta6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta6"
+        android:src="@drawable/trophy"
+        app:layout_constraintBottom_toTopOf="@+id/tarjeta9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tarjeta5"
+        app:layout_constraintTop_toBottomOf="@+id/tarjeta3" />
+
+    <ImageButton
+        android:id="@+id/tarjeta7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta7"
+        android:src="@drawable/trophy"
+        app:layout_constraintBottom_toTopOf="@+id/tarjeta10"
+        app:layout_constraintEnd_toStartOf="@+id/tarjeta8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tarjeta4" />
+
+    <ImageButton
+        android:id="@+id/tarjeta8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta8"
+        android:src="@drawable/trophy"
+        app:layout_constraintBottom_toTopOf="@+id/tarjeta11"
+        app:layout_constraintEnd_toStartOf="@+id/tarjeta9"
+        app:layout_constraintStart_toEndOf="@+id/tarjeta7"
+        app:layout_constraintTop_toBottomOf="@+id/tarjeta5" />
+
+    <ImageButton
+        android:id="@+id/tarjeta9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta9"
+        android:src="@drawable/trophy"
+        app:layout_constraintBottom_toTopOf="@+id/tarjeta12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tarjeta8"
+        app:layout_constraintTop_toBottomOf="@+id/tarjeta6" />
+
+    <ImageButton
+        android:id="@+id/tarjeta10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta10"
+        android:src="@drawable/trophy"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/tarjeta13"
+        app:layout_constraintEnd_toStartOf="@+id/tarjeta11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tarjeta7" />
+
+    <ImageButton
+        android:id="@+id/tarjeta11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta11"
+        android:src="@drawable/trophy"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/tarjeta14"
+        app:layout_constraintEnd_toStartOf="@+id/tarjeta12"
+        app:layout_constraintStart_toEndOf="@+id/tarjeta10"
+        app:layout_constraintTop_toBottomOf="@+id/tarjeta8" />
+
+    <ImageButton
+        android:id="@+id/tarjeta12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta12"
+        android:src="@drawable/trophy"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/tarjeta15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tarjeta11"
+        app:layout_constraintTop_toBottomOf="@+id/tarjeta9" />
+
+    <ImageButton
+        android:id="@+id/tarjeta13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta13"
+        android:src="@drawable/trophy"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tarjeta14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tarjeta10" />
+
+    <ImageButton
+        android:id="@+id/tarjeta14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta14"
+        android:src="@drawable/trophy"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tarjeta15"
+        app:layout_constraintStart_toEndOf="@+id/tarjeta13"
+        app:layout_constraintTop_toBottomOf="@+id/tarjeta11" />
+
+    <ImageButton
+        android:id="@+id/tarjeta15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="clickCarta15"
+        android:src="@drawable/trophy"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tarjeta14"
+        app:layout_constraintTop_toBottomOf="@+id/tarjeta12" />
+</android.support.constraint.ConstraintLayout>
+

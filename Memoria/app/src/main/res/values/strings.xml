@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Memoria</string>
+    <string name="action_settings">Settings</string>
+    <string name="salir">Salir</string>
+    <string name="Juego_Simple">Juego Simple</string>
+    <string name="Juego_Avanzado">Juego Avanzado</string>
+    <string name="Preferencias">Preferencias</string>
+    <string name="title_activity_juego_avanzado">JuegoAvanzado</string>
+    <string name="title_activity_preferencias">Preferencias</string>
+
+</resources>
+
